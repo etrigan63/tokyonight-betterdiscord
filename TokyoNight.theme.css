@@ -1,44 +1,34 @@
 /**
  * @name TokyoNight
- * @description Based on the TokyoNight VSCode Theme
+ * @description Based on the Tokyo Night VS Code theme
  * @author etrigan63
  * @version 1.0.0
  * @authorId 350378759158890507
- * @invite Jx3TjNS
  * @website https://www.echenique.com/
- * @source https://github.com/etrigan63/tokyonight-betterdiscord
- * @updateUrl https://etrigan63.github.io/tokyonight-betterdiscord/TokyoNight.theme.css
- */
+ * @source https://github.com/etrigan63/tokyonight-betterdiscord/
+ * @updateUrl https://github.com/etrigan63/tokyonight-betterdiscord/TokyoNight.theme.css
+*/
 
-/* To change the colors, change the variables inside the root {}, do NOT change the @import url() */
-
-@import url(https://etrigan63.github.io/tokyonight-betterdiscord/TokyoNight.theme.css);
-
-/* All colors are in RGB format (red, green, blue) use: https://www.google.com/search?q=colorpicker	*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+@import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/DiscordRecolor/DiscordRecolor.css');
 
 :root {
-	--font:						Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;					/*	General Font				*/
-	--settingsicons:			1;						/*	Use Settings Icons in User/Server/Channel Settings: 1 = yes, 0 = no			*/
-	
-	--accentcolor: 				157,124,216;				/*	Blurple				 - 	default:	88,101,242		 - 	hex:	#9d7cd8		*/
-	--accentcolor2: 			187,154,247;			/*	Boostpink			 - 	default:	255,115,250		 - 	hex:	#bb9af7		*/
-	--linkcolor: 				  125,207,255;				/*	Link Color			 - 	default:	0,176,244		 - 	hex:	#7dcfff		*/
-	--mentioncolor: 			255,158,100;				/*	Highlight Color		 - 	default:	250,166,26		 - 	hex:	#ff9e64		*/
-	--successcolor: 			158,206,106;				/*	Success Color		 - 	default:	59,165,92		 - 	hex:	#9ece6a		*/
-	--warningcolor: 			255,158,100;				/*	Warning Color		 - 	default:	250,166,26		 - 	hex:	#ff9e64		*/
-	--dangercolor:  			219,75,75;				/*	Danger Color		 - 	default:	237,66,69		 - 	hex:	#db4b4b		*/
-	
-	--textbrightest: 			192,202,245;			/*	Text Color 1		 - 	default:	255,255,255		 - 	hex:	#c0caf5		*/
-	--textbrighter: 			169,177,214;			/*	Text Color 2		 - 	default:	220,221,222		 - 	hex:	#a9b1d6		*/
-	--textbright: 				185,185,185;			/*	Text Color 3		 - 	default:	185,187,190		 - 	hex:	#b9bbbe		*/
-	--textdark: 				140,140,140;			/*	Text Color 4		 - 	default:	142,146,151		 - 	hex:	#8e9297		*/
-	--textdarker: 				115,115,115;			/*	Text Color 5		 - 	default:	114,118,125		 - 	hex:	#72767d		*/
-	--textdarkest: 				80,80,80;				/*	Text Color 6		 - 	default:	79,84,92		 - 	hex:	#4f545c		*/
-	
-	--backgroundaccent: 		41,46,66;				/*	Background Accent	 - 	default:	64,68,75		 - 	hex:	#292e42		*/
-	--backgroundprimary: 		36,40,59;				/*	Background 1		 - 	default:	54,57,63		 - 	hex:	#24283b		*/
-	--backgroundsecondary: 		31,35,53;				/*	Background 2		 - 	default:	47,49,54		 - 	hex:	#1f2335		*/
-	--backgroundsecondaryalt: 	65,72,104;				/*	Background 3		 - 	default:	41,43,47		 - 	hex:	#414868		*/
-	--backgroundtertiary: 		89,92,126;				/*	Background 4		 - 	default:	32,34,37		 - 	hex:	#545c7e		*/
-	--backgroundfloating: 		0,0,0;					/*	Background Elevated	 - 	default:	24,25,28		 - 	hex:	#18191c		*/
+  --accentcolor: 157,124,216;
+  --accentcolor2: 187,154,247;
+  --linkcolor: 125,207,255;
+  --mentioncolor: 255,158,100;
+  --textbrightest: 192,202,245;
+  --textbrighter: 169,177,214;
+  --textbright: 185,185,185;
+  --textdark: 140,140,140;
+  --textdarker: 115,115,115;
+  --textdarkest: 80,80,80;
+  --font: 'Roboto';
+  --backgroundaccent: 41,46,66;
+  --backgroundprimary: 36,40,59;
+  --backgroundsecondary: 31,35,53;
+  --backgroundsecondaryalt: 65,72,104;
+  --backgroundtertiary: 89,92,126;
+  --backgroundfloating: 0,0,0;
+  --settingsicons: 1;
 }
